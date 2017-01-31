@@ -1,0 +1,11 @@
+[package]
+name = "resolved"
+version = "0.1.0"
+authors = ["Sehny <msehnout@users.noreply.github.com>"]
+
+[dependencies]
+env_logger = "0.3.5"
+lazy_static = "0.2.2"
+libresolv = { path = "../libresolv" }
+log = "0.3"
+regex = "0.2"
